@@ -1,0 +1,5 @@
+opencats:
+    container_name: opencatsheroku
+    build: .
+    ports:
+        - 3000:3000
